@@ -7,9 +7,6 @@ class Box extends Component {
             bgBox: 'green'
         };
     }
-    componentDidMount() {
-        this.setState({ bgBox: 'grey' });
-    }
 
     render() {
         return (
